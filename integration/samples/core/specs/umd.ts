@@ -7,7 +7,7 @@ describe(`@sample/core`, () => {
   describe(`core.umd.min.js`, () => {
     let API;
     before(() => {
-      API = require('../dist/bundles/core.umd.min.js');
+      API = require('../dist/bundles/sample-core.umd.min.js');
     });
 
     it(`should exist`, () => {

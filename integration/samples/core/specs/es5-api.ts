@@ -7,7 +7,7 @@ describe(`@sample/core`, () => {
   describe(`esm5/core.js`, () => {
     let API;
     before(() => {
-      API = require('../dist/esm5/core.js');
+      API = require('../dist/esm5/sample-core.js');
     })
 
     it(`should exist`, () => {

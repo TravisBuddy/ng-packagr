@@ -8,7 +8,7 @@ describe(`@sample/core`, () => {
     let BUNDLE;
     before(() => {
       BUNDLE = fs.readFileSync(
-        path.resolve(__dirname, '..', 'dist', 'bundles', 'core.umd.js'), 'utf-8');
+        path.resolve(__dirname, '..', 'dist', 'bundles', 'sample-core.umd.js'), 'utf-8');
     });
 
     it(`should exist`, () => {
